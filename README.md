@@ -1,13 +1,20 @@
-# Monochrome pixel weather icons
+# Pixel weather icons
 
-This is a set of 32x32 and 16x16 pixels monochrome weather icons that I
-hand-drawn for anyone to use.  The two size sets contain the same icons.
+This is a set of 32x32 and 16x16 pixels monochrome weather icons based on
+prior work by [Dhole](https://github.com/Dhole/weather-pixel-icons).
 
-## Why
+## Formats
 
-I was looking for weather icons to use on a low resolution monocrhome display
-for a small project and I didn't find any free set of monochrome small icons,
-so I made them myself.
+* `xbm` contains @Dhole's original XBM icon files.
+* `png` contains PNG versions of these icons.
+* `png_inv` contains inverted versions (white icon on black background).
+* `png_duotone` contains duotone versions (black and red icon on white
+background). This is primarily intended for use with duotone e-ink displays.
+* `png_color` contains colored versions of the icons. A few colors (yellow,
+blue, gray) are used as accents. The main elements of each icon are white on
+a black background.
+
+Each directory contains 16-pixel and 32-pixel versions of the icon.
 
 ## Preview
 
